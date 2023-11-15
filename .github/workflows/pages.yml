@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build and Deploy
-        run: cp -r first_source/html_test.html docs
+        run: cp -r first_source/index.html docs
